@@ -39,7 +39,7 @@ if st.session_state.page == "login":
     st.title("Bestie 💖")
     email_input = st.text_input("Gmail Address", placeholder="Enter your email...")
     name_input = st.text_input("First & Last Name (For Clients)", placeholder="e.g., Sally Lennon")
-    pass_input = st.text_input("Developer Password (Optional)", type="password", placeholder="Enter secret code if developer...")
+    pass_input = st.text_input("Password (Optional)", type="password", placeholder="Enter secret code if developer...")
     
     if st.button("Sign In", use_container_width=True):
         if pass_input == "77799123":
